@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 51px;
+    margin: 0px;
+}
+
+.heading {
+    position: relative;
+    border-left: 5px solid tomato;
+    padding-left: 5px;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.orange-color {
+    color: rgb(233, 126, 50);
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 3%;
+}
+
+.develop-width h1 {
+    padding-top: 10%;
+}
+
+.develop-width p {
+    padding-bottom: 10px;
+}
+
+.half-width p {
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.half-width1 img {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.half-width img {
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.half-widths {
+    width: 50%;
+    padding: 3%;
+}
+
+.half-widths p {
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.half-widths img {
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.mission-area {
+    padding: 10px 40px;
+    margin-top: -150px;
+}
+
+.develop {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: -120px;
+    size: 80%;
+}
+
+.develops {
+    background-image: url(images/dream-bg1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: -120px;
+    size: 80%;
+}
+
+.mission-area h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.mission-item {
+    width: 40%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+    padding: 0 2% 2% 2%;
+    box-shadow: 10px 10px 30px grey;
+}
+
+.mission-item img {
+    width: 200px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.mission-item p {
+    font-size: 70%;
+}
+
+#mission-mission {
+    background-color: rgb(174, 199, 199);
+    border-image-slice: 1;
+}
+
+#vission-mission {
+    background-color: rgb(201, 165, 187);
+    border-image-slice: 1;
+}
+
+#goals-mission {
+    background-color: rgb(209, 176, 165);
+    border-image-slice: 1;
+}
+
+.white-color {
+    color: rgb(253, 251, 251);
+}
+
+.contact .title::after {
+    content: "get in touch";
+}
+
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .left p {
+    text-align: justify;
+}
+
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+}
+
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: crimson;
+}
+
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+    color: #333;
+}
+
+.contact .right form .fields {
+    display: flex;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .textarea {
+    height: 80px;
+    width: 100%;
+}
+
+.contact .right form .name {
+    margin-right: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus {
+    border-color: #b3b3b3;
+}
+
+.contact .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .right form .button-area {
+    display: flex;
+    align-items: center;
+}
+
+.right form .button-area button {
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: crimson;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.right form .button-area button:hover {
+    color: crimson;
+    background: none;
+}
+
+#section-wrapper {
+    width: 100%;
+    padding: 10px;
+}
+
+.box-wrapper {
+    position: relative;
+    display: table;
+    width: 1100px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 30px;
+}
+
+.info-wrap {
+    width: 35%;
+    height: 551px;
+    padding: 40px;
+    float: left;
+    display: block;
+    border-radius: 30px 0px 0px 30px;
+    background: linear-gradient(144deg, rgb(233, 126, 50), rgb(83, 150, 189) 49%);
+    color: #fff;
+}
+
+.info-title {
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.info-sub-title {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 17px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+}
+
+.info-details {
+    list-style: none;
+    margin: 60px 0px;
+}
+
+.info-details li {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.info-details li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info-details li a:hover {
+    color: #F44770;
+}
+
+.form-wrap {
+    width: 65%;
+    float: right;
+    padding: 40px 25px 35px 25px;
+    border-radius: 0px 30px 30px 0px;
+    background: #ecf0f3;
+}
+
+.form-title {
+    text-align: left;
+    margin-left: 23px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.form-fields {
+    display: table;
+    width: 100%;
+    padding: 15px 5px 5px 5px;
+}
+
+.form-fields input,
+.form-fields textarea {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+    width: 100%
+}
+
+.form-fields textarea {
+    height: 150px;
+    resize: none;
+}
+
+.form-group {
+    width: 46%;
+    float: left;
+    padding: 0px 30px;
+    margin: 14px 12px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.form-fields .form-group:last-child {
+    width: 96%;
+}
+
+.submit-button {
+    width: 96%;
+    height: 60px;
+    margin: 0px 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(orange, tomato);
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: .5s;
+}
+
+.submit-button:hover {
+    background: #31279d;
+}
+
+footer {
+    background-color: black;
+    background-size: 100%;
+}
+
+footer h2 {
+    font-family: Lobster Two;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
